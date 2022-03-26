@@ -81,12 +81,7 @@ function draw(){
   background(0);
 image(video,0, 0, 700, 600,);
 
-if(game_status == "start") // inside the if condition check if the game_status is equal to the value "start".
-{
-  background(0); 
-  image(video, 0, 0, 700, 600);
-
-  fill("black");
+fill("black");
   stroke("black");
   rect(680,0,20,700);
 
@@ -100,6 +95,11 @@ if(game_status == "start") // inside the if condition check if the game_status i
     stroke("red");
     circle(rightWristX, rightWristY, 30);
   }
+  
+if(game_status == "start") // inside the if condition check if the game_status is equal to the value "start".
+{
+  
+  
 
 
     //funtion paddleInCanvas call 
